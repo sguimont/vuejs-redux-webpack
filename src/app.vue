@@ -4,7 +4,8 @@
       <h1>Revue</h1>
     </header>
 
-    <router-view></router-view>
+    <router-view>
+    </router-view>
 
   </div>
 </template>
