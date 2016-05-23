@@ -1,0 +1,28 @@
+{
+  "core": {
+    "actions": {
+      "create": "Create",
+      "cancel": "Cancel"
+    },
+    "develop": "DEVELOP"
+  },
+  "buckets": {
+    "bucket": {
+      "code": "Code",
+      "code_hint": "Enter the code, e.g. catalog, shows, news",
+      "name": "Name",
+      "name_hint": "Enter the name, e.g. Summer Catalog, Music Shows, Latest News"
+    },
+    "sync_api": "Sync API",
+    "search_api": "Search API",
+    "add_bucket": {
+      "header": {
+        "title": "Add a bucket",
+        "text": "A bucket is a logical unit of storage where you can put your data and make it queryable using best match algorithms, geo capabilities, full-text search, and so on. Inside a bucket the data is stored by language which is provided at sync."
+      },
+      "body": {
+        "text": "Choose an easy to remember and concise code. Please note that the code will be used as a reference in the APIs."
+      }
+    }
+  }
+}

@@ -1,11 +1,20 @@
 <template>
   <div id="app">
-    <header class="header">
-      <h1>Revue</h1>
-    </header>
-
-    <router-view>
-    </router-view>
-
+    <div class="wrapper">
+      <router-view></router-view>
+    </div>
+    <app-footer></app-footer>
   </div>
 </template>
+
+
+<script>
+  import appFooter from './components/app-footer';
+
+  export default {
+    components: {
+      'app-footer': appFooter
+    }
+  };
+
+</script>

@@ -1,0 +1,81 @@
+/*
+ *
+ *   INSPINIA - Responsive Admin Theme
+ *   version 2.2
+ *
+*/
+
+// Google Fonts
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&lang=en");
+
+@import "custom/lr360-style-guide";
+
+// Variables, Mixins
+@import "variables";
+@import "custom_variables";
+@import "mixins";
+
+// INSPINIA Theme Elements
+@import "typography";
+@import "navigation";
+@import "top_navigation";
+@import "buttons";
+@import "badgets_labels";
+@import "elements";
+@import "sidebar";
+@import "base";
+@import "pages";
+@import "chat";
+@import "metismenu";
+@import "spinners";
+
+// Landing page
+@import "landing";
+
+// RTL Support
+@import "rtl";
+
+// For demo only - config box style
+@import "theme-config";
+
+// INSPINIA Skins
+@import "skins";
+@import "md-skin";
+
+// Media query style
+@import "media";
+
+// Custom style
+// Your custom style to override base style
+@import "custom";
+
+navbar {
+  .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text { color: $lr360-dark-brown !important; }
+  .navbar-brand { width: 220px !important;}
+  .navbar-default .navbar-nav>.open>a,
+  .navbar-default .navbar-nav>.open>a:focus,
+  .navbar-default .navbar-nav>.open>a:hover,
+  .navbar-default .navbar-nav>li>a:focus,
+  .navbar-default .navbar-nav>li>a:hover {
+    color: $lr360-red !important;
+    b, small {color: $lr360-red !important; }
+  }
+
+  .btn-primary, .btn-primary[disabled], .btn-primary:active, .btn-primary:focus {
+    background-color: $lr360-brown !important;
+    border-color: $lr360-brown !important;
+  }
+
+  .btn-primary:hover {
+    background-color: $lr360-dark-brown !important;
+    border-color: $lr360-dark-brown !important;
+  }
+
+  .dropdown-menu, .open > .dropdown-menu li > a {
+    color: $lr360-dark-brown;
+  }
+
+  #create-account, #forgot-password + p {
+    display: none;
+  }
+}

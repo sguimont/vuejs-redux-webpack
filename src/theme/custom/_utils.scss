@@ -1,0 +1,59 @@
+
+.valign {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.loader-wheel {
+  color: $lr360-red;
+}
+
+.ibox-title {
+  border: none;
+  color: $lr360-brown !important;
+}
+
+.ibox-title h5 {
+  font-size: 16px;
+}
+
+.trend-decrease { color: $navy;}
+.trend-increase { color: $green;}
+
+.text-muted {
+  color: $lr360-brown;
+}
+
+.text-muted:hover {
+  color: $lr360-dark-brown;
+}
+
+.btn-primary {
+  background-color: $lr360-brown !important;
+  border-color: $lr360-brown !important;
+}
+
+.btn-primary:hover {
+  background-color: $lr360-dark-brown !important;
+  border-color: $lr360-dark-brown !important;
+}
+
+.navbar-default .navbar-text {
+  color: $lr360-brown;
+}
+
+.modal-icon {
+  color: $lr360-aqua !important;
+}

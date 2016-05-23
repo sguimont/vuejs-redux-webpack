@@ -1,0 +1,42 @@
+
+
+html {
+  overflow: hidden;
+}
+
+content-app {
+  position: relative;
+  display: block;
+}
+
+#page-wrapper {
+  min-height: 100vh;
+  padding-bottom: 50px;
+      padding-top: 50px;
+}
+
+.settings a.active {
+  font-weight: bold;
+}
+
+.top-navigation .wrapper.wrapper-content {
+  padding: 0;
+}
+
+.container {
+  width: 100% !important;
+}
+
+.top-navigation .nav > li > a {
+  color: $lr360-brown;
+}
+
+.top-navigation .nav > li > a.router-link-active {
+  color: $lr360-red;
+  border-bottom: 2px solid $lr360-red;
+}
+.top-navigation .nav > li a:hover, .top-navigation .nav > li a:focus { background: none; }
+
+.top-navigation .navbar-brand {
+  padding: 0 0 0 15px;
+}

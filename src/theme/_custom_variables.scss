@@ -1,0 +1,17 @@
+// LR360 color palette
+$primary-1: $lr360-red;
+$primary-2: #a7a9ae;
+$secondary-1: $lr360-dark-red;
+
+$navy: $primary-1;           // Primary color
+$dark-gray: $primary-2;      // Default color
+$blue: #1c84c6;           // Success color
+$lazur: #23c6c8;          // Info color
+$yellow: #f8ac59;         // Warrning color
+$red: #ed5565;            // Danger color
+$green: #6F9C0F;
+
+// remove margin bottom from select elements
+select.m-b {
+  margin-bottom: 0 !important;
+}

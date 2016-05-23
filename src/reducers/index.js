@@ -1,6 +1,10 @@
-import { combineReducers } from 'redux';
-import todos from './todos';
+import {combineReducers} from "redux";
+import config from "./config";
+import system from "./system";
+import buckets from "./buckets";
 
 export default combineReducers({
-  todos
+  config,
+  system,
+  buckets
 });

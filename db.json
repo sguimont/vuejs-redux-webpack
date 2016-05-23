@@ -1,0 +1,103 @@
+{
+  "buckets": [
+    {
+      "id": "news-1",
+      "code": "news",
+      "name": "Latest News",
+      "language_packs": [
+        {
+          "locale": "en",
+          "lastSync": "2016-01-15T13:15:30Z",
+          "itemCount": 1274
+        },
+        {
+          "locale": "fr",
+          "lastSync": "2016-01-14T12:15:30Z",
+          "itemCount": 954
+        }
+      ]
+    },
+    {
+      "id": "catalog-1",
+      "code": "catalog",
+      "name": "Summer Catalog",
+      "language_packs": [
+        {
+          "locale": "en",
+          "lastSync": "2016-04-03T21:59:00Z",
+          "itemCount": 384
+        }
+      ]
+    },
+    {
+      "code": "super-code",
+      "name": "Super!!!",
+      "id": "dda7e695-00d0-4f64-a575-294e93c0862b"
+    },
+    {
+      "code": "Test",
+      "name": "Test 2 en",
+      "id": "3852cc34-902f-4c6f-a0f7-202c52a265bd"
+    },
+    {
+      "code": "test",
+      "name": "test",
+      "id": "551e5e1f-ab50-4738-b167-fe468840c802"
+    },
+    {
+      "code": "test",
+      "name": "test",
+      "id": "e90ccb8f-b87a-4078-b8c3-1ffc014bad34"
+    },
+    {
+      "code": "a new bucket",
+      "name": " a nwq bsd test",
+      "id": "d7bc9a6c-1755-473c-81ec-4e810e0ec549"
+    },
+    {
+      "code": "CODE",
+      "name": "Test",
+      "id": "5257d312-84a9-4706-9c7c-1af599a42c58"
+    },
+    {
+      "code": "CODE",
+      "name": "A name",
+      "id": "f030e1b3-eec5-4279-9662-6d79fbd2149d"
+    },
+    {
+      "code": "asdfasdf",
+      "name": "sdfasdfa",
+      "id": "cb55003e-1ddb-4f17-98b3-89bf0a2a96d9"
+    },
+    {
+      "code": "sdf",
+      "name": "sdfasdf",
+      "id": "e04dacc2-d90c-4e7b-a7d1-e9febd063df6"
+    },
+    {
+      "code": "test",
+      "name": "test asdg",
+      "id": "eca35989-49aa-49a6-910a-614dca3dea3f"
+    },
+    {
+      "code": "",
+      "name": "gdg",
+      "id": "75a611a0-47c5-4f3c-9e27-130cff6bb737"
+    },
+    {
+      "code": "",
+      "name": "",
+      "id": "370a7ddc-890e-4453-a426-87aedf3b1cc9"
+    },
+    {
+      "code": "A CODE",
+      "name": "a TEST",
+      "id": "963c9d7b-c000-4298-a138-8c8fda67d1e9"
+    },
+    {
+      "code": "Test",
+      "name": "Test 2 en",
+      "id": "958d699f-47fb-482b-abc2-a762393ab705"
+    }
+  ]
+}

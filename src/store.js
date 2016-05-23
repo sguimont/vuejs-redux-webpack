@@ -3,12 +3,12 @@ import Revue from 'revue';
 import {createStore, applyMiddleware} from 'redux';
 import reducer from './reducers/index';
 import thunk from 'redux-thunk';
-import * as actions from './actions/todos';
+import * as buckets from './actions/buckets';
 
 const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
 
 const reduxStore = createStoreWithMiddleware(reducer);
 
-const store = new Revue(Vue, reduxStore, actions);
+const store = new Revue(Vue, reduxStore, buckets);
 
 export default store;
